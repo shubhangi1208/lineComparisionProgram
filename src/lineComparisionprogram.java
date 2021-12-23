@@ -13,18 +13,35 @@ public class lineComparisionprogram {
      Distance1=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
      System.out.println("Distance1 is "+ Distance1 );
      
-     
      x3=2;
      x4=3;
      y3=2;
-     y4=4;
+     y4=6;
    Distance2=Math.sqrt((x4-x3)*(x4-x3) + (y4-y3)*(y4-y3));
    System.out.println("Distance2 is "+ Distance2 );
-     if(Distance1==Distance2)
-    		 {
-    		 System.out.println("Two lines are equal");
-    		 }
-     else
-    	 System.out.println("Two lines are not equal");
-	}
+   if (Distance1 == Distance2)
+	 {
+		  System.out.println("Two lines are equal");
+	 }
+   
+		  else 
+		  		{
+			 System.out.println("Two lines are not equal");
+		  		}
+   
+   
+   
+		  if (Distance1>Distance2)
+				 {
+					 System.out.println("Line 1 is greater");
+
+				 }	
+		  else
+		  {
+						 System.out.println("Line 2 is greater");
+			 }
+		 
+	 
+
+}
 }
